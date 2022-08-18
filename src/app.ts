@@ -8,4 +8,6 @@ async function execute() {
   }
 }
 
-execute();
+execute()
+  .then((data) => data)
+  .catch((error) => error);

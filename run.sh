@@ -1,1 +1,1 @@
-ts-node src/app.ts
+yarn start
