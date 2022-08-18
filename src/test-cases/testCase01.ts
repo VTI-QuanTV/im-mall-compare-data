@@ -44,8 +44,6 @@ async function compare(conn: mysql.Connection) {
   } catch (error) {
     await conn.rollback();
     console.info('UNHANDLED ERROR', error);
-  } finally {
-    await conn.end();
   }
 }
 
