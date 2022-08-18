@@ -15,8 +15,8 @@ async function compare(conn: mysql.Connection) {
     const script = fs.readFileSync(
       path.join(__dirname, '../scripts/test_00.sql'),
     );
+
     // STEP 2: execute query
-    await conn.beginTransaction();
     await truncateTables(conn, [
       'endclient',
       'm_project',
@@ -26,8 +26,7 @@ async function compare(conn: mysql.Connection) {
       'affiliate_conversion',
     ]);
     await conn.query(script.toString());
-    await conn.commit();
-    // const dataQuery = await executeQuery(script.toString());
+
     // STEP 3: call API
     const actualResp = await axiosRequest.request({
       method: 'GET',
@@ -42,7 +41,6 @@ async function compare(conn: mysql.Connection) {
     // STEP 3: compare data
     // TODO: compare
   } catch (error) {
-    await conn.rollback();
     console.info('UNHANDLED ERROR', error);
   }
 }
