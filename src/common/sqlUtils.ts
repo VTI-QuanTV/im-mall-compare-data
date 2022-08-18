@@ -1,10 +1,9 @@
-import { connection } from '../db';
+import mysql from 'mysql2/promise';
 
-export const executeQuery = (sqlString: string): Promise<any> => {
-  return new Promise((resolve, reject) => {
-    connection.query(sqlString, (error, results) => {
-      if (error) reject(error);
-      resolve(results);
-    });
-  });
+export const truncateTables = async (
+  conn: mysql.Connection,
+  tables: string[],
+): Promise<void> => {
+  const statements = tables.map((name) => `TRUNCATE TABLE ${name};`).join(' ');
+  await conn.query(statements);
 };

@@ -13,10 +13,9 @@
     "axios": "^0.27.2",
     "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
-    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "ts-dotenv": "^0.8.3",
     "ts-node": "^10.7.0",
-    "typeorm": "^0.3.7",
     "typescript-eslint": "0.0.1-alpha.0"
   },
   "scripts": {
@@ -26,7 +25,6 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.9.1",
     "@typescript-eslint/parser": "^4.9.1",
-    "@types/mysql": "^2.15.21",
     "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
