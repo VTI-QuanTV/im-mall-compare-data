@@ -8,6 +8,8 @@ async function execute() {
       throw new Error('Can not connect to database');
     }
     await compare(conn);
+    console.info('Terminating connection...');
+    await conn.end();
   } catch (error) {
     console.error('UNHANDLED ERROR', error);
   }
