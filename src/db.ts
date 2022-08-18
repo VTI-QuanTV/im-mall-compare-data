@@ -12,5 +12,14 @@ const dbConfig: ConnectionOptions = {
 };
 
 export async function getConnection(): Promise<mysql.Connection> {
-  return mysql.createConnection(dbConfig);
+  return mysql
+    .createConnection(dbConfig)
+    .then((conn) => {
+      console.info('Success connect to database...');
+      return conn;
+    })
+    .catch((error) => {
+      console.error('Could not connect to database');
+      return null;
+    });
 }

@@ -4,6 +4,9 @@ import { getConnection } from './db';
 async function execute() {
   try {
     const conn = await getConnection();
+    if (!conn) {
+      throw new Error('Can not connect to database');
+    }
     await compare(conn);
   } catch (error) {
     console.error('UNHANDLED ERROR', error);
