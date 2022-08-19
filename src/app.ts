@@ -1,4 +1,4 @@
-import * as testCase01 from './test-cases/testcase01';
+import * as testCase from './test-cases/executor';
 import { getConnection } from './db';
 
 async function execute() {
@@ -7,8 +7,11 @@ async function execute() {
     if (!conn) {
       throw new Error('Can not connect to database');
     }
-    const resultCase1 = await testCase01.compare(conn);
-    console.log('Result case 1: ', resultCase1);
+    const results = await testCase.execute(
+      conn,
+      'get-projects-affiliate-conversions-unapproved',
+    );
+    console.log(results);
     console.info('Terminating connection...');
     await conn.end();
   } catch (error) {

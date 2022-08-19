@@ -1,6 +1,16 @@
-export const TEST_CASE_01_SQL_FILE = 'testcase_01.sql';
-export const TEST_CASE_01_JSON_FILE = 'testcase_01.json';
-export const TEST_CASE_01_TABLES_TRUNCATE = [
-  'affiliate_conversion',
-  'influencer_socialmedia',
-];
+export const TRUNCATE_TABLES = {
+  'get-projects-affiliate-conversions-unapproved': [
+    'affiliate_conversion',
+    'influencer_socialmedia',
+  ],
+};
+
+export enum ENDPOINTS {
+  GET_PROJECTS_AFFILIATE_CONVERSIONS_UNAPPROVED = 'get-projects-affiliate-conversions-unapproved',
+}
+
+export enum TESTCASES {
+  TESTCASE01 = 1,
+  TESTCASE02 = 2,
+  TESTCASE03 = 3,
+}
