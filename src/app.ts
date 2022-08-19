@@ -1,4 +1,4 @@
-import { compare } from './test-cases';
+import * as testCase01 from './test-cases/testcase01';
 import { getConnection } from './db';
 
 async function execute() {
@@ -7,11 +7,12 @@ async function execute() {
     if (!conn) {
       throw new Error('Can not connect to database');
     }
-    await compare(conn);
+    const resultCase1 = await testCase01.compare(conn);
+    console.log('Result case 1: ', resultCase1);
     console.info('Terminating connection...');
     await conn.end();
   } catch (error) {
-    console.error('UNHANDLED ERROR', error);
+    console.error(error);
   }
 }
 
