@@ -1,4 +1,4 @@
-import { compare } from './test-cases/testCase01';
+import { compare } from './test-cases';
 import { getConnection } from './db';
 
 async function execute() {
