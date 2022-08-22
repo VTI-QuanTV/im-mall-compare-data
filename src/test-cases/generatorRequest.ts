@@ -14,6 +14,7 @@ export function generateRequest(
           const projectId = encodeURIComponent(
             '00454d4a-b2c9-11eb-9fd6-06d367mpj001',
           );
+
           return {
             method: 'GET',
             baseURL: config.apiUrl,

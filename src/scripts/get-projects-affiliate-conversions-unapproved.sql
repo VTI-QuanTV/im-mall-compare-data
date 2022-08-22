@@ -1,3 +1,6 @@
+TRUNCATE TABLE `demo.mall`.`affiliate_conversion`;
+TRUNCATE TABLE `demo.mall`.`influencer_socialmedia`;
+
 -- INSERT affiliate_conversion
 INSERT INTO `demo.mall`.`affiliate_conversion` (`influencer_id`, `click_at`, `conversion_at`, `approve_status`, `created_at`, `m_project_id`, `endclient_id`)
 VALUES

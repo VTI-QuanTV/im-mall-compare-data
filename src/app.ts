@@ -1,5 +1,6 @@
 import * as testCase from './test-cases/executor';
 import { getConnection } from './db';
+import { ENDPOINTS } from './constants';
 
 async function execute() {
   try {
@@ -9,7 +10,7 @@ async function execute() {
     }
     const results = await testCase.execute(
       conn,
-      'get-projects-affiliate-conversions-unapproved',
+      ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS_UNAPPROVED,
     );
     console.log(results);
     console.info('Terminating connection...');

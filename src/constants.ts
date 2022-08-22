@@ -1,13 +1,10 @@
-export const TRUNCATE_TABLES = {
-  'get-projects-affiliate-conversions-unapproved': [
-    'affiliate_conversion',
-    'influencer_socialmedia',
-  ],
-};
-
 export enum ENDPOINTS {
   GET_PROJECTS_AFFILIATE_CONVERSIONS_UNAPPROVED = 'get-projects-affiliate-conversions-unapproved',
 }
+
+export const NUMBER_OF_TESTCASES = {
+  'get-projects-affiliate-conversions-unapproved': 1,
+};
 
 export enum TESTCASES {
   TESTCASE01 = 1,
