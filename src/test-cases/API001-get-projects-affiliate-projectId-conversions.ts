@@ -3,14 +3,17 @@ import { config } from '../common/config';
 import { CompareUtils } from '../common/compareUtils';
 import mysql from 'mysql2/promise';
 import {
-  API_001_EXPECTED_FILE_NAME, API_001_SQL_FILE_NAME,
+  API_001_EXPECTED_FILE_NAME,
+  API_001_SQL_FILE_NAME,
+  ENDPOINTS,
   MESSAGE_FAILED,
   MESSAGE_PASS,
+  NUMBER_OF_TESTCASES,
 } from '../constants';
 
 const axiosRequest = new AxiosUtils();
 
-async function compare(conn: mysql.Connection) {
+async function compare(conn: mysql.Connection, api: ENDPOINTS): Promise<any> {
   try {
     const numberOfFileExpected = await CompareUtils.readResponseFile(
       'src/expected-responses/get-projects-affiliate-projectId-conversions',
@@ -19,6 +22,9 @@ async function compare(conn: mysql.Connection) {
     const script = CompareUtils.readFile(
       `src/scripts/${API_001_SQL_FILE_NAME}`,
     );
+    const numberOfTestcases =
+      NUMBER_OF_TESTCASES.GET_PROJECTS_AFFILIATE_CONVERSIONS;
+
     await conn.query(script.toString());
 
     const resultCompare = [];
