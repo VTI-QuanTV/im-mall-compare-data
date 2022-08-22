@@ -2,7 +2,7 @@ import fs from 'fs';
 import { AxiosUtils } from '../common/axiosUtils';
 import path from 'path';
 import mysql from 'mysql2/promise';
-import { ENDPOINTS, NUMBER_OF_TESTCASES } from '../constants';
+import { ENDPOINTS } from '../constants';
 import { generateRequest } from './generatorRequest';
 import _ from 'lodash';
 
@@ -19,25 +19,23 @@ async function execute(
     const scriptFile = fs.readFileSync(
       path.join(__dirname, `../scripts/${api}.sql`),
     );
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    const numberOfTestcases: number = NUMBER_OF_TESTCASES[api];
+    const responses = fs.readdirSync(
+      path.join(__dirname, `../expected-responses/${api}`),
+    );
 
     // STEP 2: execute query
     await conn.query(scriptFile.toString());
 
-    for (let index = 1; index <= numberOfTestcases; index++) {
+    for (const expectedResp of responses) {
       const response = fs.readFileSync(
-        path.join(
-          __dirname,
-          `../expected-responses/${api}/testcase_${index
-            .toString()
-            ?.padStart(2, '0')}.json`,
-        ),
+        path.join(__dirname, `../expected-responses/${api}/${expectedResp}`),
+      );
+      const testCaseNumber = Number(
+        expectedResp.match(new RegExp('\\d+', 'g')),
       );
 
       // STEP 3: call API
-      const requestConfig = generateRequest(api as ENDPOINTS, index);
+      const requestConfig = generateRequest(api as ENDPOINTS, testCaseNumber);
       const actualResponse = await axiosRequest.request(requestConfig);
 
       // STEP 4: compare data
@@ -48,7 +46,7 @@ async function execute(
 
       results.push({
         api,
-        testCase: index,
+        testCase: testCaseNumber,
         result,
       });
     }
