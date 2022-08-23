@@ -8,15 +8,14 @@ async function execute() {
     if (!conn) {
       throw new Error('Can not connect to database');
     }
-    const results = await testCase.execute(
-      conn,
-      ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS_UNAPPROVED,
-    );
-    const resultsApi001 = await testCase.execute(
-      conn,
-      ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS,
-    );
-    console.log(results, resultsApi001);
+    const results = await Promise.all([
+      testCase.execute(
+        conn,
+        ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS_UNAPPROVED,
+      ),
+      testCase.execute(conn, ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS),
+    ]).then((res) => res.reduce((acc, curr) => acc.concat(curr), []));
+    console.log(results);
     console.info('Terminating connection...');
     await conn.end();
   } catch (error) {
