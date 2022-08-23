@@ -12,7 +12,11 @@ async function execute() {
       conn,
       ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS_UNAPPROVED,
     );
-    console.log(results);
+    const resultsApi001 = await testCase.execute(
+      conn,
+      ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS,
+    );
+    console.log(results, resultsApi001);
     console.info('Terminating connection...');
     await conn.end();
   } catch (error) {
