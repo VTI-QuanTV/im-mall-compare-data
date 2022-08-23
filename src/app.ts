@@ -8,6 +8,7 @@ async function execute() {
     if (!conn) {
       throw new Error('Can not connect to database');
     }
+    console.info('STARTING COMPARE DATA...');
     const results = await Promise.all([
       testCase.execute(
         conn,
