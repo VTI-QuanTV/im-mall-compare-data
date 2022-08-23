@@ -1,0 +1,355 @@
+{
+  "testcase_005": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/ee8742a6-e563-11ec-a5d2-0611f1df76cb/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    }
+  },
+  "testcase_026": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    }
+  },
+  "testcase_037": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "from": "2022-06-06 00:00:00"
+    }
+  },
+  "testcase_038": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "from": "2022-05-15 00:00:00",
+      "to": "2022-06-08 00:00:00"
+    }
+  },
+  "testcase_039": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 50,
+      "offset": 0,
+      "from": "2022-05-31 00:00:00",
+      "to": "2022-06-08 00:00:00",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_049": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "to": "2022-06-06 00:00:00"
+    }
+  },
+  "testcase_050": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "to": "2023-08-15 00:00:00"
+    }
+  },
+  "testcase_051": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "from": "2022-06-06 00:00:00",
+      "to": "2022-06-07 00:00:00"
+    }
+  },
+  "testcase_052": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "from": "2022-06-06 00:00:00",
+      "to": "2022-06-06 00:00:00"
+    }
+  },
+  "testcase_054": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "from": "2022-06-06 00:00:00",
+      "to": "2022-06-08 00:00:00"
+    }
+  },
+  "testcase_057": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 50,
+      "offset": 0,
+      "from": "2022-06-08 00:00:00",
+      "to": "2022-06-08 00:00:00",
+      "sortKey": "influencerId",
+      "sortType": "DESC"
+    }
+  },
+  "testcase_066": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 5
+    }
+  },
+  "testcase_067": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": "01"
+    }
+  },
+  "testcase_068": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 99
+    }
+  },
+  "testcase_072": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "offset": 0
+    }
+  },
+  "testcase_077": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "offset": 5
+    }
+  },
+  "testcase_078": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 1,
+      "offset": 5
+    }
+  },
+  "testcase_079": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 5,
+      "offset": 6
+    }
+  },
+  "testcase_088": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "sortKey": "conversionId"
+    }
+  },
+  "testcase_089": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 10,
+      "sortKey": "influencerId"
+    }
+  },
+  "testcase_090": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "sortKey": "mediaId"
+    }
+  },
+  "testcase_091": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "sortKey": "clickDate"
+    }
+  },
+  "testcase_101": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "sortType": "Desc"
+    }
+  },
+  "testcase_102": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "sortType": "Asc"
+    }
+  },
+  "testcase_103": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 5,
+      "sortKey": "conversionId",
+      "sortType": "Desc"
+    }
+  },
+  "testcase_104": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/pla26316-9a07-11ec-a6dc-069f9bbaf005/conversions/approved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 5,
+      "sortKey": "influencerId",
+      "sortType": "Asc"
+    }
+  }
+}
