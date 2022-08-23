@@ -1,0 +1,22 @@
+{
+  "testcase_035": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/eb5b6316-9a07-11ec-a6dc-069f9bba5f43/conversions/detail/10",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    }
+  },
+  "testcase_036": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/detail/22",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    }
+  }
+}

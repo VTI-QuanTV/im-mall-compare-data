@@ -1,0 +1,17 @@
+{
+  "conversionId": 22,
+  "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+  "influenceId": "29d4ee76-8869-11ea-a687-06ac534ba540",
+  "mediaId": "onumaaan",
+  "endClientId": "45af0e5c-6a94-11eb-9030-0242ac160005",
+  "offerId": "order_5",
+  "clickAt": "2022-05-31T16:33:52Z",
+  "conversionAt": "2022-05-31T17:33:48Z",
+  "userAgent": "mozilla/5.0 (macintosh; intel mac os x 10_15_7) applewebkit/537.36 (khtml, like gecko) chrome/101.0.4951.64 safari/537.36",
+  "os": "windows",
+  "refererUrl": "https://im-tag-test-dev.s3.us-west-2.amazonaws.com/view.html?_cm_i=4ac7d3d3-699f-4a83-a03f-fc6aadd5640a&_cm_c=f9643e9b-e5d3-44c8-b58f-50742a6faeb9&_cm_p=99d2e33e-3fc5-48a8-81c7-8913acb28eb9&_cm_clk=9dd5b433-691d-466f-9567-dc4e2a8c00c3",
+  "currentUrl": "https://im-tag-test-dev.s3.us-west-2.amazonaws.com/conversion.html",
+  "memo": "memo",
+  "createdAt": "2022-05-31T17:33:45Z",
+  "updatedAt": "2022-08-19T18:20:44Z"
+}
