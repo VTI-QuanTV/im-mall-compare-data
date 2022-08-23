@@ -25,11 +25,16 @@ async function execute() {
       conn,
       ENDPOINTS.GET_INFLUENCER_AFFILIATE_SUMMARY,
     );
+    const resultApi030 = await testCase.execute(
+      conn,
+      ENDPOINTS.GET_INFLUENCER_INFLUENCERID_EVALUATIONS,
+    );
     const results = [
       ...resultApi001,
       ...resultApi002,
       ...resultApi006,
       ...resultApi028,
+      ...resultApi030,
     ];
     console.log(results);
     console.info('Terminating connection...');
