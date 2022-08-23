@@ -42,7 +42,7 @@ export enum TESTCASES {
   TESTCASE24 = 24,
 }
 export const API_001_SQL_FILE_NAME =
-  'SQL_API001_GET_affiliate_projectId_conversions.sql';
+  'get-projects_affiliate_projectId_conversions.sql';
 export const API_001_EXPECTED_FILE_NAME = 'expected_';
 export const MESSAGE_PASS = ' compare with response is PASSED!!!';
 export const MESSAGE_FAILED = ' compare with response is FAILED!!!';
