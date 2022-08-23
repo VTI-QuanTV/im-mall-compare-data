@@ -15,6 +15,7 @@ async function execute() {
         ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS_UNAPPROVED,
       ),
       testCase.execute(conn, ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS),
+      testCase.execute(conn, ENDPOINTS.GET_INFLUENCER_AFFILIATE_SUMMARY),
     ]).then((res) => res.reduce((acc, curr) => acc.concat(curr), []));
     console.log(results);
     console.info('Terminating connection...');
