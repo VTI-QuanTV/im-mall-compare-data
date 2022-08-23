@@ -13,17 +13,15 @@ import {
 
 const axiosRequest = new AxiosUtils();
 
-async function compare(conn: mysql.Connection, api: ENDPOINTS): Promise<any> {
+async function compare(conn: mysql.Connection): Promise<any> {
   try {
     const numberOfFileExpected = await CompareUtils.readResponseFile(
-      'src/expected-responses/get-projects-affiliate-projectId-conversions',
+      `src/expected-responses/${ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS}`,
     );
 
     const script = CompareUtils.readFile(
       `src/scripts/${API_001_SQL_FILE_NAME}`,
     );
-    const numberOfTestcases =
-      NUMBER_OF_TESTCASES.GET_PROJECTS_AFFILIATE_CONVERSIONS;
 
     await conn.query(script.toString());
 
