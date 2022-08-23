@@ -9,14 +9,28 @@ async function execute() {
       throw new Error('Can not connect to database');
     }
     console.info('STARTING COMPARE DATA...');
-    const results = await Promise.all([
-      testCase.execute(
-        conn,
-        ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS_UNAPPROVED,
-      ),
-      testCase.execute(conn, ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS),
-      testCase.execute(conn, ENDPOINTS.GET_INFLUENCER_AFFILIATE_SUMMARY),
-    ]).then((res) => res.reduce((acc, curr) => acc.concat(curr), []));
+    const resultApi002 = await testCase.execute(
+      conn,
+      ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS_UNAPPROVED,
+    );
+    const resultApi006 = await testCase.execute(
+      conn,
+      ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS_APPROVED,
+    );
+    const resultApi001 = await testCase.execute(
+      conn,
+      ENDPOINTS.GET_PROJECTS_AFFILIATE_CONVERSIONS,
+    );
+    const resultApi028 = await testCase.execute(
+      conn,
+      ENDPOINTS.GET_INFLUENCER_AFFILIATE_SUMMARY,
+    );
+    const results = [
+      ...resultApi001,
+      ...resultApi002,
+      ...resultApi006,
+      ...resultApi028,
+    ];
     console.log(results);
     console.info('Terminating connection...');
     await conn.end();
