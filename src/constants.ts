@@ -1,14 +1,3 @@
 export enum ENDPOINTS {
   GET_PROJECTS_AFFILIATE_CONVERSIONS_UNAPPROVED = 'get-projects-affiliate-conversions-unapproved',
 }
-
-export enum TESTCASES {
-  TESTCASE001 = 1,
-  TESTCASE002 = 2,
-  TESTCASE003 = 3,
-  TESTCASE005 = 5,
-  TESTCASE019 = 19,
-  TESTCASE055 = 55,
-  TESTCASE066 = 66,
-  TESTCASE071 = 71,
-}
