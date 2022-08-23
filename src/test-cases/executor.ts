@@ -3,7 +3,6 @@ import { AxiosUtils } from '../common/axiosUtils';
 import path from 'path';
 import mysql from 'mysql2/promise';
 import { ENDPOINTS } from '../constants';
-import { generateRequest } from './generatorRequest';
 import _ from 'lodash';
 
 const axiosRequest = new AxiosUtils();
@@ -22,6 +21,10 @@ async function execute(
     const responses = fs.readdirSync(
       path.join(__dirname, `../expected-responses/${api}`),
     );
+    const requestAxios = fs.readFileSync(
+      path.join(__dirname, `../request/${api}.json`),
+    );
+    const requestAxiosObj = JSON.parse(requestAxios.toString());
 
     // STEP 2: execute query
     await conn.query(scriptFile.toString());
@@ -35,7 +38,10 @@ async function execute(
       );
 
       // STEP 3: call API
-      const requestConfig = generateRequest(api as ENDPOINTS, testCaseNumber);
+      const requestConfig =
+        requestAxiosObj[
+          `testcase_${testCaseNumber.toString().padStart(3, '0')}`
+        ];
       const actualResponse = await axiosRequest.request(requestConfig);
 
       // STEP 4: compare data
