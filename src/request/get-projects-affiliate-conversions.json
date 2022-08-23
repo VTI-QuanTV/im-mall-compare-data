@@ -1,0 +1,380 @@
+{
+  "testcase_001": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_002": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_003": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/ssssss/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_004": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_005": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_006": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-09-30 17:59:50",
+      "from": "2022-09-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_007": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-31 17:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_008": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 50,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_009": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_010": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 50,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_011": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_012": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 0,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_013": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_014": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_015": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_016": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_017": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "influencerId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_018": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "influencerId",
+      "sortType": ""
+    }
+  },
+  "testcase_019": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "influencerId"
+    }
+  },
+  "testcase_020": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 20,
+      "offset": 0,
+      "to": "2022-05-31 17:59:50",
+      "from": "2022-05-26 15:59:50",
+      "sortKey": "influencerId",
+      "sortType": "DESC"
+    }
+  },
+  "testcase_021": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    }
+  },
+  "testcase_022": {
+    "method": "GET",
+    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "from": "2022-05-31 17:59:50",
+      "to": "2022-05-26 15:59:50"
+    }
+  }
+}
