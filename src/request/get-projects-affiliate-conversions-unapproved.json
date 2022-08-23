@@ -1,0 +1,84 @@
+{
+  "testcase_005": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/unapproved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    }
+  },
+  "testcase_019": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/unapproved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 10,
+      "offset": 0,
+      "from": "2022-05-31 00:00:00",
+      "to": "2022-06-08 00:00:00",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_055": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/unapproved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 50,
+      "offset": 0,
+      "from": "2022-06-06 00:00:00",
+      "to": "2022-06-08 00:00:00",
+      "sortKey": "conversionId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_066": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/unapproved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 50,
+      "offset": 0,
+      "from": "2022-05-31 00:00:00",
+      "to": "2022-06-08 00:00:00",
+      "sortKey": "influencerId",
+      "sortType": "ASC"
+    }
+  },
+  "testcase_071": {
+    "method": "GET",
+    "baseURL": "http://localhost:8080/v1",
+    "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/unapproved",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "limit": 50,
+      "offset": 0,
+      "from": "2022-05-31 00:00:00",
+      "to": "2022-06-08 00:00:00",
+      "sortKey": "influencerId",
+      "sortType": "DESC"
+    }
+  }
+}
