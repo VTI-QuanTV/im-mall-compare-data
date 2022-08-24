@@ -17,8 +17,7 @@ import { config } from '../common/config';
 
 const swaggerDir = config.swaggerDir;
 const responseDir = config.resultApiDir;
-const htmlPath = config.report.htmlPath;
-const csvPath = config.report.csvPath;
+const reportPath = config.reportDir;
 
 export function compareStructure(): {
   path: string;
@@ -136,19 +135,15 @@ export function compareStructure(): {
       }, []);
 
     //  write to html
-    const htmlDir = path.join(__dirname, htmlPath);
-    const csvDir = path.join(__dirname, csvPath);
-    if (!fs.existsSync(htmlDir)) {
-      fs.mkdirSync(htmlDir);
-    }
-    if (!fs.existsSync(csvDir)) {
-      fs.mkdirSync(csvDir);
+    const reportDir = path.join(__dirname, reportPath);
+    if (!fs.existsSync(reportDir)) {
+      fs.mkdirSync(reportDir);
     }
     const templateHtml = pug.compileFile(
       path.join(__dirname, '../templates/html/template.pug'),
     );
     fs.writeFileSync(
-      path.join(__dirname, htmlPath),
+      path.join(__dirname, `${reportPath}/compare.html`),
       templateHtml({
         resultResp: groupedResult
           .filter((el) => el.result === ResultEnum.NOT_GOOD)
@@ -180,7 +175,7 @@ export function compareStructure(): {
           },"${el.descriptions.toString()}"`,
       );
     csv.setData(dataCsv);
-    csv.build(path.join(__dirname, csvPath));
+    csv.build(path.join(__dirname, `${reportPath}/compare.csv`));
 
     return groupedResult.filter((el) => el.result === ResultEnum.GOOD);
   } catch (error) {

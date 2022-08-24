@@ -13,8 +13,5 @@ export const config = {
   resultApiDir: process.env.RESULT_API_DIR,
   swaggerDir: process.env.SWAGGER_DIR,
   responseDir: process.env.RESPONSE_DIR,
-  report: {
-    htmlPath: process.env.HTML_PATH,
-    csvPath: process.env.CSV_PATH,
-  },
+  reportDir: process.env.REPORT_DIR,
 };

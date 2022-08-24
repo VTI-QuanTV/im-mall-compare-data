@@ -41,7 +41,11 @@ async function makeInputCompare(conn: mysql.Connection): Promise<void> {
 
         // STEP 4: save file
         const apiParse = api.replace(new RegExp('-', 'gm'), '_');
+        const parentDir = path.join(__dirname, `${resultApiDir}`);
         const dir = path.join(__dirname, `${resultApiDir}/${apiParse}`);
+        if (!fs.existsSync(parentDir)) {
+          fs.mkdirSync(parentDir);
+        }
         if (!fs.existsSync(dir)) {
           fs.mkdirSync(dir);
         }
