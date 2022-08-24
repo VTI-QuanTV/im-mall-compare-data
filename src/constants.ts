@@ -5,4 +5,6 @@ export enum ENDPOINTS {
   GET_INFLUENCER_AFFILIATE_SUMMARY = 'get-influencer-affiliate-influencerId-summary',
   GET_INFLUENCER_INFLUENCERID_EVALUATIONS = 'get-influencer-influencerId-evaluations',
   GET_INFLUENCER_INFLUENCERID_GENDER = 'get-influencer-influencerId-gender',
+  GET_INFLUENCER_INFLUENCERID_INSITE = 'get-influencer-influencerId-insite',
+  GET_INFLUENCER_INFLUENCERID_MEDIA = 'get-influencer-influencerId-media',
 }

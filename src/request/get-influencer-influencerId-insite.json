@@ -1,0 +1,52 @@
+{
+  "testcase_001": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/influencer/pla26316-9a07-11ec-a6dc-069f9bbaf005/insite",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    }
+  },
+  "testcase_002": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/influencer/ee8742a6-e563-11ec-a5d2-0611f1df76cb/insite",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    }
+  },
+  "testcase_003": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/influencer/pla26316-9a07-11ec-a6dc-069f9bbaf005/insite",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "$&%&%",
+      "X-From": "1"
+    }
+  },
+  "testcase_004": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/influencer/pla26316-9a07-11ec-a6dc-069f9bbaf005/insite",
+    "headers": {
+      "X-Organization-Id": "$&%&%",
+      "Authorization": "1",
+      "X-From": "1"
+    }
+  },
+  "testcase_005": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/influencer/pla26316-9a07-11ec-a6dc-069f9bbaf005/insite",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "$&%&%"
+    }
+  }
+}
