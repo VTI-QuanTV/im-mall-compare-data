@@ -7,7 +7,8 @@
       "X-Organization-Id": "1",
       "Authorization": "1",
       "X-From": "1"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_026": {
     "method": "GET",
@@ -17,7 +18,8 @@
       "X-Organization-Id": "1",
       "Authorization": "1",
       "X-From": "1"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_037": {
     "method": "GET",
@@ -30,7 +32,8 @@
     },
     "params": {
       "from": "2022-06-06 00:00:00"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_038": {
     "method": "GET",
@@ -44,7 +47,8 @@
     "params": {
       "from": "2022-05-15 00:00:00",
       "to": "2022-06-08 00:00:00"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_039": {
     "method": "GET",
@@ -62,7 +66,8 @@
       "to": "2022-06-08 00:00:00",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_049": {
     "method": "GET",
@@ -75,7 +80,8 @@
     },
     "params": {
       "to": "2022-06-06 00:00:00"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_050": {
     "method": "GET",
@@ -88,7 +94,8 @@
     },
     "params": {
       "to": "2023-08-15 00:00:00"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_051": {
     "method": "GET",
@@ -102,7 +109,8 @@
     "params": {
       "from": "2022-06-06 00:00:00",
       "to": "2022-06-07 00:00:00"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_052": {
     "method": "GET",
@@ -116,7 +124,8 @@
     "params": {
       "from": "2022-06-06 00:00:00",
       "to": "2022-06-06 00:00:00"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_054": {
     "method": "GET",
@@ -130,7 +139,8 @@
     "params": {
       "from": "2022-06-06 00:00:00",
       "to": "2022-06-08 00:00:00"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_057": {
     "method": "GET",
@@ -148,7 +158,8 @@
       "to": "2022-06-08 00:00:00",
       "sortKey": "influencerId",
       "sortType": "DESC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_066": {
     "method": "GET",
@@ -161,7 +172,8 @@
     },
     "params": {
       "limit": 5
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_067": {
     "method": "GET",
@@ -174,7 +186,8 @@
     },
     "params": {
       "limit": "01"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_068": {
     "method": "GET",
@@ -187,7 +200,8 @@
     },
     "params": {
       "limit": 99
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_072": {
     "method": "GET",
@@ -200,7 +214,8 @@
     },
     "params": {
       "offset": 0
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_077": {
     "method": "GET",
@@ -213,7 +228,8 @@
     },
     "params": {
       "offset": 5
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_078": {
     "method": "GET",
@@ -227,7 +243,8 @@
     "params": {
       "limit": 1,
       "offset": 5
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_079": {
     "method": "GET",
@@ -241,7 +258,8 @@
     "params": {
       "limit": 5,
       "offset": 6
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_088": {
     "method": "GET",
@@ -254,7 +272,8 @@
     },
     "params": {
       "sortKey": "conversionId"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_089": {
     "method": "GET",
@@ -268,7 +287,8 @@
     "params": {
       "limit": 10,
       "sortKey": "influencerId"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_090": {
     "method": "GET",
@@ -281,7 +301,8 @@
     },
     "params": {
       "sortKey": "mediaId"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_091": {
     "method": "GET",
@@ -294,7 +315,8 @@
     },
     "params": {
       "sortKey": "clickDate"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_101": {
     "method": "GET",
@@ -307,7 +329,8 @@
     },
     "params": {
       "sortType": "Desc"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_102": {
     "method": "GET",
@@ -320,7 +343,8 @@
     },
     "params": {
       "sortType": "Asc"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_103": {
     "method": "GET",
@@ -335,7 +359,8 @@
       "limit": 5,
       "sortKey": "conversionId",
       "sortType": "Desc"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_104": {
     "method": "GET",
@@ -350,6 +375,7 @@
       "limit": 5,
       "sortKey": "influencerId",
       "sortType": "Asc"
-    }
+    },
+    "expectedStatusCode": 200
   }
 }

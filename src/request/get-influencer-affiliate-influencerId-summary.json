@@ -7,7 +7,8 @@
       "X-Organization-Id": "1",
       "Authorization": "1",
       "X-From": "1"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_002": {
     "method": "GET",
@@ -17,7 +18,8 @@
       "X-Organization-Id": "1",
       "Authorization": "$&%&%",
       "X-From": "1"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_003": {
     "method": "GET",
@@ -27,7 +29,8 @@
       "X-Organization-Id": "$&%&%",
       "Authorization": "1",
       "X-From": "1"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_004": {
     "method": "GET",
@@ -37,6 +40,7 @@
       "X-Organization-Id": "1",
       "Authorization": "1",
       "X-From": "$&%&%"
-    }
+    },
+    "expectedStatusCode": 200
   }
 }

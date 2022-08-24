@@ -15,7 +15,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_002": {
     "method": "GET",
@@ -33,7 +34,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_003": {
     "method": "GET",
@@ -51,7 +53,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_004": {
     "method": "GET",
@@ -68,7 +71,8 @@
       "to": "2022-05-31 17:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_005": {
     "method": "GET",
@@ -85,7 +89,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_006": {
     "method": "GET",
@@ -103,7 +108,8 @@
       "from": "2022-09-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_007": {
     "method": "GET",
@@ -121,7 +127,8 @@
       "from": "2022-05-31 17:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_008": {
     "method": "GET",
@@ -139,7 +146,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_009": {
     "method": "GET",
@@ -156,7 +164,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_010": {
     "method": "GET",
@@ -174,7 +183,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_011": {
     "method": "GET",
@@ -192,7 +202,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_012": {
     "method": "GET",
@@ -210,7 +221,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_013": {
     "method": "GET",
@@ -227,7 +239,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_014": {
     "method": "GET",
@@ -245,7 +258,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_015": {
     "method": "GET",
@@ -263,7 +277,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_016": {
     "method": "GET",
@@ -280,7 +295,8 @@
       "to": "2022-05-31 17:59:50",
       "from": "2022-05-26 15:59:50",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_017": {
     "method": "GET",
@@ -298,7 +314,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "influencerId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_018": {
     "method": "GET",
@@ -316,7 +333,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "influencerId",
       "sortType": ""
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_019": {
     "method": "GET",
@@ -333,7 +351,8 @@
       "to": "2022-05-31 17:59:50",
       "from": "2022-05-26 15:59:50",
       "sortKey": "influencerId"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_020": {
     "method": "GET",
@@ -351,7 +370,8 @@
       "from": "2022-05-26 15:59:50",
       "sortKey": "influencerId",
       "sortType": "DESC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_021": {
     "method": "GET",
@@ -361,7 +381,8 @@
       "X-Organization-Id": "1",
       "Authorization": "1",
       "X-From": "1"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_022": {
     "method": "GET",
@@ -375,6 +396,7 @@
     "params": {
       "from": "2022-05-31 17:59:50",
       "to": "2022-05-26 15:59:50"
-    }
+    },
+    "expectedStatusCode": 200
   }
 }

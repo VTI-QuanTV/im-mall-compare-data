@@ -7,7 +7,8 @@
       "X-Organization-Id": "1",
       "Authorization": "1",
       "X-From": "1"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_019": {
     "method": "GET",
@@ -25,7 +26,8 @@
       "to": "2022-06-08 00:00:00",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_055": {
     "method": "GET",
@@ -43,7 +45,8 @@
       "to": "2022-06-08 00:00:00",
       "sortKey": "conversionId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_066": {
     "method": "GET",
@@ -61,7 +64,8 @@
       "to": "2022-06-08 00:00:00",
       "sortKey": "influencerId",
       "sortType": "ASC"
-    }
+    },
+    "expectedStatusCode": 200
   },
   "testcase_071": {
     "method": "GET",
@@ -79,6 +83,7 @@
       "to": "2022-06-08 00:00:00",
       "sortKey": "influencerId",
       "sortType": "DESC"
-    }
+    },
+    "expectedStatusCode": 200
   }
 }
