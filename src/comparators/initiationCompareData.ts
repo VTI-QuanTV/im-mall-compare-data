@@ -15,9 +15,9 @@ async function makeInputCompare(conn: mysql.Connection): Promise<void> {
 
     for (const scriptFile of scriptFiles) {
       const api = scriptFile.replace('.sql', '') as ENDPOINTS;
-      if (api.startsWith('get-inf')) {
-        continue;
-      }
+      // if (api.startsWith('get-inf')) {
+      //   continue;
+      // }
       const script = fs.readFileSync(
         path.join(__dirname, `../scripts/${scriptFile}`),
       );
