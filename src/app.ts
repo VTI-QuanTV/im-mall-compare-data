@@ -25,6 +25,10 @@ async function execute() {
       conn,
       ENDPOINTS.GET_INFLUENCER_AFFILIATE_SUMMARY,
     );
+    const resultApi029 = await testCase.execute(
+      conn,
+      ENDPOINTS.GET_INFLUENCER_INFLUENCERID,
+    );
     const resultApi030 = await testCase.execute(
       conn,
       ENDPOINTS.GET_INFLUENCER_INFLUENCERID_EVALUATIONS,
@@ -46,6 +50,7 @@ async function execute() {
       ...resultApi002,
       ...resultApi006,
       ...resultApi028,
+      ...resultApi029,
       ...resultApi030,
       ...resultApi031,
       ...resultApi032,
