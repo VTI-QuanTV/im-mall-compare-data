@@ -7,4 +7,5 @@ export enum ENDPOINTS {
   GET_INFLUENCER_INFLUENCERID_GENDER = 'get-influencer-influencerId-gender',
   GET_INFLUENCER_INFLUENCERID_INSITE = 'get-influencer-influencerId-insite',
   GET_INFLUENCER_INFLUENCERID_MEDIA = 'get-influencer-influencerId-media',
+  GET_INFLUENCER_INFLUENCERID = 'get-influencer-influencerId',
 }
