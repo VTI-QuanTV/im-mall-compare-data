@@ -1,0 +1,130 @@
+{
+    "columns": [
+        {
+            "header": "No",
+            "key": "no"
+        },
+        {
+            "header": "インフルエンサーID",
+            "key": "mediaId"
+        },
+        {
+            "header": "クリック発生日時",
+            "key": "clickDate"
+        },
+        {
+            "header": "成果発生日時",
+            "key": "conversionDate"
+        },
+        {
+            "header": "ステータス",
+            "key": "conversionStatus"
+        },
+        {
+            "header": "否認理由",
+            "key": "conversionDisApprovedReason"
+        },
+        {
+            "header": "注文番号",
+            "key": "orderId"
+        },
+        {
+            "header": "報酬単価",
+            "key": "reward"
+        },
+        {
+            "header": "手数料",
+            "key": "commission"
+        },
+        {
+            "header": "合計",
+            "key": "sum"
+        }
+    ],
+    "rows": [
+        {
+            "no": "1",
+            "mediaId": "onumaaan",
+            "clickDate": "2022/06/09 16:33:56",
+            "conversionDate": "2022/05/31 17:33:44",
+            "conversionStatus": "承認",
+            "conversionDisApprovedReason": "薬事法が遵守されていなかった",
+            "orderId": "order_9",
+            "reward": "200",
+            "commission": "60",
+            "sum": "260"
+        },
+        {
+            "no": "2",
+            "mediaId": "onumaaan",
+            "clickDate": "2022/06/08 16:33:53",
+            "conversionDate": "2022/05/31 17:33:47",
+            "conversionStatus": "承認",
+            "conversionDisApprovedReason": "成果の不備・不正・虚偽・いたずら",
+            "orderId": "order_6",
+            "reward": "200",
+            "commission": "60",
+            "sum": "260"
+        },
+        {
+            "no": "3",
+            "mediaId": "onumaaan",
+            "clickDate": "2022/06/07 16:33:52",
+            "conversionDate": "2022/05/31 17:33:48",
+            "conversionStatus": "承認",
+            "conversionDisApprovedReason": "成果の重複",
+            "orderId": "order_5",
+            "reward": "200",
+            "commission": "60",
+            "sum": "260"
+        },
+        {
+            "no": "4",
+            "mediaId": "onumaaan",
+            "clickDate": "2022/06/07 16:33:51",
+            "conversionDate": "2022/05/31 17:33:49",
+            "conversionStatus": "未承認",
+            "conversionDisApprovedReason": "",
+            "orderId": "order_4",
+            "reward": "200",
+            "commission": "60",
+            "sum": "0"
+        },
+        {
+            "no": "5",
+            "mediaId": "onumaaan",
+            "clickDate": "2022/06/06 16:33:50",
+            "conversionDate": "2022/05/31 17:33:50",
+            "conversionStatus": "承認",
+            "conversionDisApprovedReason": "",
+            "orderId": "order_3",
+            "reward": "200",
+            "commission": "60",
+            "sum": "260"
+        },
+        {
+            "no": "6",
+            "mediaId": "onumaaan",
+            "clickDate": "2022/06/06 16:33:49",
+            "conversionDate": "2022/05/31 17:33:51",
+            "conversionStatus": "承認",
+            "conversionDisApprovedReason": "",
+            "orderId": "order_2",
+            "reward": "200",
+            "commission": "60",
+            "sum": "260"
+        },
+        {
+            "no": "7",
+            "mediaId": "onumaaan",
+            "clickDate": "2022/06/05 16:33:48",
+            "conversionDate": "2022/05/31 17:33:52",
+            "conversionStatus": "否認",
+            "conversionDisApprovedReason": "注文がキャンセルされた",
+            "orderId": "order_1",
+            "reward": "200",
+            "commission": "60",
+            "sum": "0"
+        }
+    ]
+}

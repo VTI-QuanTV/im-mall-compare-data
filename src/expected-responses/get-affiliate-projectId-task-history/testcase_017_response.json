@@ -1,0 +1,112 @@
+{
+    "total": 1,
+    "hasNext": false,
+    "items": {
+        "1": [
+            {
+                "taskId": 6918,
+                "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+                "taskName": "affiliate_delivery",
+                "inCharge": 1,
+                "taskRank": 1,
+                "fromDate": "2022-06-05",
+                "toDate": "2022-06-08",
+                "taskStatus": 2,
+                "term": 1,
+                "influencer": []
+            },
+            {
+                "taskId": 6919,
+                "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+                "taskName": "affiliate_receive",
+                "inCharge": 2,
+                "taskRank": 2,
+                "fromDate": "2022-06-08",
+                "toDate": "2022-06-13",
+                "taskStatus": 1,
+                "term": 1,
+                "influencer": [
+                    {
+                        "taskStatusLogsId": 20846,
+                        "influencerId": "a166b250-a17b-11ea-8304-06dcdaiid002",
+                        "mediaName": "onumaaan",
+                        "avatar": "https://scontent-sea1-1.xx.fbcdn.net/v/t51.2885-15/182478872_488126532240855_5720158391060606601_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=86c713&_nc_ohc=CbBkqD2NzKEAX9DTbH2&_nc_ht=scontent-sea1-1.xx&edm=AL-3X8kEAAAA&oh=78aa2e2bb25837fd6faf9be407c0f946&oe=612CA98A",
+                        "taskStatusLogsStatus": 2
+                    }
+                ]
+            },
+            {
+                "taskId": 6920,
+                "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+                "taskName": "affiliate_prepost",
+                "inCharge": 2,
+                "taskRank": 3,
+                "fromDate": "2022-06-13",
+                "toDate": "2022-06-18",
+                "taskStatus": 1,
+                "term": 1,
+                "influencer": []
+            },
+            {
+                "taskId": 6921,
+                "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+                "taskName": "affiliate_prepost-confirm",
+                "inCharge": 1,
+                "taskRank": 4,
+                "fromDate": "2022-06-18",
+                "toDate": "2022-06-20",
+                "taskStatus": 1,
+                "term": 1,
+                "influencer": []
+            },
+            {
+                "taskId": 6922,
+                "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+                "taskName": "affiliate_edit-post",
+                "inCharge": 2,
+                "taskRank": 5,
+                "fromDate": "2022-06-20",
+                "toDate": "2022-06-23",
+                "taskStatus": 1,
+                "term": 1,
+                "influencer": []
+            },
+            {
+                "taskId": 6923,
+                "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+                "taskName": "affiliate_fix-post",
+                "inCharge": 1,
+                "taskRank": 6,
+                "fromDate": "2022-06-23",
+                "toDate": "2022-06-24",
+                "taskStatus": 1,
+                "term": 1,
+                "influencer": []
+            },
+            {
+                "taskId": 6924,
+                "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+                "taskName": "affiliate_post",
+                "inCharge": 2,
+                "taskRank": 7,
+                "fromDate": "2022-06-24",
+                "toDate": "2022-06-27",
+                "taskStatus": 1,
+                "term": 1,
+                "influencer": []
+            },
+            {
+                "taskId": 6925,
+                "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+                "taskName": "affiliate_post-confirm",
+                "inCharge": 1,
+                "taskRank": 8,
+                "fromDate": "2022-06-27",
+                "toDate": "2022-06-28",
+                "taskStatus": 1,
+                "term": 1,
+                "influencer": []
+            }
+        ]
+    }
+}

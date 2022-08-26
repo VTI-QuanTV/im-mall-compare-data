@@ -1,0 +1,45 @@
+{
+    "columns": [
+        {
+            "header": "No",
+            "key": "no"
+        },
+        {
+            "header": "インフルエンサーID",
+            "key": "mediaId"
+        },
+        {
+            "header": "クリック発生日時",
+            "key": "clickDate"
+        },
+        {
+            "header": "成果発生日時",
+            "key": "conversionDate"
+        },
+        {
+            "header": "ステータス",
+            "key": "conversionStatus"
+        },
+        {
+            "header": "否認理由",
+            "key": "conversionDisApprovedReason"
+        },
+        {
+            "header": "注文番号",
+            "key": "orderId"
+        },
+        {
+            "header": "報酬単価",
+            "key": "reward"
+        },
+        {
+            "header": "手数料",
+            "key": "commission"
+        },
+        {
+            "header": "合計",
+            "key": "sum"
+        }
+    ],
+    "rows": []
+}
