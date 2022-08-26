@@ -14,4 +14,5 @@ export const config = {
   swaggerDir: process.env.SWAGGER_DIR,
   responseDir: process.env.RESPONSE_DIR,
   reportDir: process.env.REPORT_DIR,
+  configDir: process.env.CONFIG_DIR,
 };

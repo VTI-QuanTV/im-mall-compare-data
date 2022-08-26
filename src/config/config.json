@@ -1,0 +1,4 @@
+{
+  "type": 2,
+  "api" : ["get-influencer-affiliate-influencerId-summary", "get-projects-affiliate-projectId-conversions"]
+}
