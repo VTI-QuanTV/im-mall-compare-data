@@ -1,0 +1,46 @@
+{
+  "testcase_001": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/chat/unread",
+    "headers": {
+      "X-Organization-Id": "45af0e5c-6a94-11eb-9030-0242ac160005",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "expectedStatusCode": 200
+  },
+  "testcase_002": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/chat/unread",
+    "headers": {
+      "X-Organization-Id": "45af0e5c-6a94-11eb-9030-0242ac160005",
+      "Authorization": "$&%&%",
+      "X-From": "1"
+    },
+    "expectedStatusCode": 200
+  },
+  "testcase_003": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/chat/unread",
+    "headers": {
+      "X-Organization-Id": "45af0e5c-6a94-11eb-9030-0242ac160005",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "expectedStatusCode": 200
+  },
+  "testcase_004": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/chat/unread",
+    "headers": {
+      "X-Organization-Id": "45af0e5c-6a94-11eb-9030-0242ac160005",
+      "Authorization": "1",
+      "X-From": "$&%&%"
+    },
+    "expectedStatusCode": 200
+  }
+}

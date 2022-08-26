@@ -38,3 +38,8 @@ export enum ErrorMessage {
   EXPECTED_NULL_VALUE = 'expected null value',
   UNEXPECTED_HTTP_STATUS = 'unexpected http status code',
 }
+
+export enum TypeCompare {
+  RUN_ALL = 1,
+  RUN_TARGET = 2,
+}

@@ -1,0 +1,72 @@
+{
+  "testcase_001": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/endclient/",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "target": "6226b059358462006942e496"
+    },
+    "expectedStatusCode": 200
+  },
+  "testcase_002": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/endclient/",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "target": "5ebbb3c376cbd20c68f159a2"
+    },
+    "expectedStatusCode": 200
+},
+  "testcase_003": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/endclient/",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "$&%&%",
+      "X-From": "1"
+    },
+    "params": {
+      "target": "6226b059358462006942e496"
+    },
+    "expectedStatusCode": 200
+  },
+  "testcase_004": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/endclient/",
+    "headers": {
+      "X-Organization-Id": "$&%&%",
+      "Authorization": "1",
+      "X-From": "1"
+    },
+    "params": {
+      "target": "6226b059358462006942e496"
+    },
+    "expectedStatusCode": 200
+  },
+  "testcase_005": {
+    "method": "GET",
+    "baseURL": "http://localhost:6651/v1",
+    "url": "/endclient/",
+    "headers": {
+      "X-Organization-Id": "1",
+      "Authorization": "1",
+      "X-From": "$&%&%"
+    },
+    "params": {
+      "target": "6226b059358462006942e496"
+    },
+    "expectedStatusCode": 200
+  }
+}

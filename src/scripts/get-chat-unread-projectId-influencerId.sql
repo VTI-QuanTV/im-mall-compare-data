@@ -1,0 +1,15 @@
+-- trancate table
+TRUNCATE TABLE m_project;
+TRUNCATE TABLE endclient;
+TRUNCATE TABLE influencer;
+
+-- insert m_project
+INSERT INTO `m_project` (`m_project_id`,`endclient_id`,`status`,`title`,`m_project_type_id`,`recruit_type`,`m_write_type_id`,`incentive_id`,`incentive_item_type`,`incentive_item`,`price`,`sns_id`,`follower_count_id`,`m_experience_id`,`company_logo_img`,`img_name_1`,`img_name_2`,`img_name_3`,`img_name_4`,`img_name_5`,`content`,`recruit_count`,`recruit_date_start`,`recruit_date_end`,`assign_date`,`target_sex`,`target_age_min`,`target_age_max`,`company_name`,`company_url`,`store_address`,`mention_tag`,`recruit_fix_date`,`memo`,`created_at`,`updated_at`,`deleted_at`,`is_active`,`project_start_date`,`project_end_date`,`stories_url`,`instructions`,`showcase`,`pay_comment`,`report_status`,`plan_id`) VALUES ('a16b9356-2b17-11ec-aba9-06e52fpid001','45af0e5c-6a94-11eb-9030-0242ac160005',3,'インフルエンサー用の告知タイトル',2,1,1,2,1,NULL,0,1,4,2,NULL,'https://im-mall-post-dev.s3.us-west-2.amazonaws.com/insite/thumb-DCnqmnFdGAm2T4DasctauODUKt2nc2XLciDlE50H.jpeg','https://im-mall-post-dev.s3.us-west-2.amazonaws.com/insite/pE7kRXvt8uTmsl4jhEe9YDKzB7cKOsxJRm2GQPRc.jpeg','https://im-mall-post-dev.s3.us-west-2.amazonaws.com/insite/9oNlcdKILXUYcOFyHtZ3bufnLxYlGxUdnAnUFCwV.jpeg','https://im-mall-post-dev.s3.us-west-2.amazonaws.com/insite/AwMB0G2LHjy6cnLYDKrO4phwkPWVFNjVAeg7EjoT.png','https://im-mall-post-dev.s3.us-west-2.amazonaws.com/insite/m3jqtSAS8LgNlhxy6VBhnOgb1xoYIryPR14AISIV.jpeg','aaaa\r\ndsfsadfads\r\nf\r\nsdafasdfasd',5,'2021-08-04 00:00:00','2021-08-06 00:00:00','2021-08-09 00:00:00',1,33,44,'株式会社呉','https://google.com/product','大阪市大阪市大阪市大阪市大阪市大阪市大阪市大阪市大阪市','aaaa',NULL,'・投稿内の文字、写真において一般常識内の投稿をお願い致します。\r\n・同伴者は◯名までです。必ず事前にチャットにて来場者数をお伝えください。※同伴者の料金においても無償提供に記載の分を負担します。\r\n・来訪に無理のない地域にお住まいの方でお願い致します。\r\n・来訪日の調整が決定できない場合、相談の上、依頼をキャンセルさせていただくことがございます。','2021-08-04 17:28:50','2022-06-28 18:35:00',NULL,1,'2021-08-04 17:30:00',NULL,NULL,'（写真）顔出しは必要ありません。\r\naaa','価格（お得感）を強く訴求してほしい。\r\nナチュラル感を訴求してほしい。',NULL,NULL,1);
+
+-- insert endclient
+INSERT INTO `endclient` (`endclient_id`,`auth_id`,`is_terms`,`email`,`name`,`company_name`,`tel`,`is_admin`,`is_active`,`login_at`,`created_at`,`updated_at`) VALUES ('5eea617a-8ba3-11eb-93f2-065d921b402f','60adff67963467006963e8ea',1,'youngseok.oh+dev-ys-end-03@plan-b.co.jp','テスト','株式会社テスト','11111111111',NULL,1,NULL,'2021-05-26 16:57:28','2021-05-26 16:57:28');
+
+-- insert influencer
+INSERT INTO `influencer` (`influencer_id`,`auth_id`,`is_active`,`line_user_id`,`nonce`,`sns_status`,`email`,`address_flag`,`bank_flag`,`audit_status`,`prefecture`,`notice_flag`,`is_planb`,`is_terms`,`operation_date`,`login_at`,`created_at`,`updated_at`) VALUES ('a166b250-a17b-11ea-8304-06dcdaiid002','611234ebf4d4420069158147',1,'U951f859ff27dfdc1a1fb715fdf13a11e',NULL,3,'youngseok.oh+inf-01@plan-b.co.jp',1,0,2,27,3,0,1,NULL,'2022-05-31 13:55:33','2021-08-10 17:12:27','2022-05-31 13:55:33');
+
+commit;

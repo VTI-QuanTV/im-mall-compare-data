@@ -3,8 +3,9 @@ import { getConnection } from './db';
 import { compareStructure } from './comparators/comparatorStructure';
 import fs from 'fs';
 import path from 'path';
-import { config } from './common/config';
 import { compareData } from './comparators/comparatorData';
+import { config } from './common/config';
+import { UTF_8 } from './constants';
 
 async function execute() {
   try {
@@ -12,14 +13,22 @@ async function execute() {
     if (!conn) {
       throw new Error('Can not connect to database');
     }
+    const configData = JSON.parse(
+      fs.readFileSync('src/config/config.json', {
+        encoding: UTF_8,
+      }),
+    );
     // clear dir
     fs.rmdirSync(path.join(__dirname, `${config.resultApiDir}/`), {
       recursive: true,
     });
     // STEP 1: init data compare
     console.info('MAKING DATA COMPARE...');
-    await initiationCompareData.makeInputCompare(conn);
-
+    const dataPrepare = await initiationCompareData.makeInputCompare(
+      conn,
+      configData,
+    );
+    console.log(dataPrepare);
     // STEP 2: compare structure
     console.info('COMPARING STRUCTURE...');
     const goodCases = compareStructure();
