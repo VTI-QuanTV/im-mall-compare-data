@@ -19,9 +19,9 @@ async function execute() {
       }),
     );
     // clear dir
-    fs.rmdirSync(path.join(__dirname, `${config.resultApiDir}/`), {
-      recursive: true,
-    });
+    // fs.rmdirSync(path.join(__dirname, `${config.resultApiDir}/`), {
+    //   recursive: true,
+    // });
     // STEP 1: init data compare
     console.info('MAKING DATA COMPARE...');
     const dataPrepare = await initiationCompareData.makeInputCompare(
