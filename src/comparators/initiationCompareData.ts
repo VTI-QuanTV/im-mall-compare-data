@@ -37,8 +37,10 @@ async function makeInputCompare(
         // STEP 2: execute query
         await conn.query(script.toString());
 
-        for (const [testCase, request] of Object.entries(requestObj)) {
+        // eslint-disable-next-line prefer-const
+        for (let [testCase, request] of Object.entries(requestObj)) {
           // STEP 3: call API;
+          request = Object.assign(request, { baseURL: config.baseUrlDir });
           const actualResponse = await axiosRequest
             .request(request)
             .then((data) => data)
@@ -86,8 +88,10 @@ async function makeInputCompare(
         // STEP 2: execute query
         await conn.query(script.toString());
 
-        for (const [testCase, request] of Object.entries(requestObj)) {
+        // eslint-disable-next-line prefer-const
+        for (let [testCase, request] of Object.entries(requestObj)) {
           // STEP 3: call API;
+          request = Object.assign(request, { baseURL: config.baseUrlDir });
           const actualResponse = await axiosRequest
             .request(request)
             .then((data) => data)

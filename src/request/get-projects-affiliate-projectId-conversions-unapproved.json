@@ -1,7 +1,6 @@
 {
   "testcase_005": {
     "method": "GET",
-    "baseURL": "http://localhost:8080/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/unapproved",
     "headers": {
       "X-Organization-Id": "1",
@@ -12,7 +11,6 @@
   },
   "testcase_019": {
     "method": "GET",
-    "baseURL": "http://localhost:8080/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/unapproved",
     "headers": {
       "X-Organization-Id": "1",
@@ -31,7 +29,6 @@
   },
   "testcase_055": {
     "method": "GET",
-    "baseURL": "http://localhost:8080/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/unapproved",
     "headers": {
       "X-Organization-Id": "1",
@@ -50,7 +47,6 @@
   },
   "testcase_066": {
     "method": "GET",
-    "baseURL": "http://localhost:8080/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/unapproved",
     "headers": {
       "X-Organization-Id": "1",
@@ -69,7 +65,6 @@
   },
   "testcase_071": {
     "method": "GET",
-    "baseURL": "http://localhost:8080/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions/unapproved",
     "headers": {
       "X-Organization-Id": "1",

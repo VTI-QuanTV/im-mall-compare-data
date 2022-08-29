@@ -1,0 +1,61 @@
+{
+    "items": {
+        "2021-08": [
+            {
+                "projectId": "6e8c9654-ff28-11eb-b9a3-0242ac160005",
+                "projectName": "完了案件",
+                "projectCost": 10000
+            },
+            {
+                "projectId": "f4029bca-f4f7-11eb-918e-0242ac160005",
+                "projectName": "「応募できません」テスト案件",
+                "projectCost": 13000
+            }
+        ],
+        "2021-10": [
+            {
+                "projectId": "0b7ba910-ff28-11eb-8830-0242ac160005",
+                "projectName": "事前投稿修正",
+                "projectCost": 13000
+            }
+        ],
+        "2021-11": [
+            {
+                "projectId": "02422d3a-f4fe-11eb-b6f7-0242ac160005",
+                "projectName": "aインフルエンサー用の告知タイトル2aaaa",
+                "projectCost": 8000
+            }
+        ],
+        "2022-05": [
+            {
+                "projectId": "402654de-db29-11ec-b30e-0242ac160005",
+                "projectName": "成果報酬案件HTML組み込み",
+                "projectCost": 6500
+            },
+            {
+                "projectId": "590034de-cb8e-11ec-9df4-0242ac160005",
+                "projectName": "成果報酬",
+                "projectCost": 3120
+            },
+            {
+                "projectId": "f91ae45c-d5a0-11ec-a296-0242ac160005",
+                "projectName": "成果報酬インフルエンサー",
+                "projectCost": 2600
+            }
+        ],
+        "2022-06": [
+            {
+                "projectId": "f91ae45c-d5a0-11ec-a296-0242ac160005",
+                "projectName": "成果報酬インフルエンサー",
+                "projectCost": 400
+            }
+        ],
+        "2022-07": [
+            {
+                "projectId": "402654de-db29-11ec-b30e-0242ac160005",
+                "projectName": "成果報酬案件HTML組み込み",
+                "projectCost": 1560
+            }
+        ]
+    }
+}

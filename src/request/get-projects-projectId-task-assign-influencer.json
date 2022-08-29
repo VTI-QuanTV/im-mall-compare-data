@@ -1,7 +1,7 @@
 {
   "testcase_001": {
     "method": "GET",
-    "url": "/influencer/pla26316-9a07-11ec-a6dc-069f9bbaf005/media",
+    "url": "/projects/ee8742a6-e563-11ec-a5d2-0611f1df76cb/task/assign/influencer",
     "headers": {
       "X-Organization-Id": "1",
       "Authorization": "1",
@@ -11,7 +11,7 @@
   },
   "testcase_002": {
     "method": "GET",
-    "url": "/influencer/ee8742a6-e563-11ec-a5d2-0611f1df76cb/media",
+    "url": "/projects/pla26316-9a07-11ec-a6dc-069f9bbaf005/task/assign/influencer",
     "headers": {
       "X-Organization-Id": "1",
       "Authorization": "1",
@@ -21,7 +21,7 @@
   },
   "testcase_003": {
     "method": "GET",
-    "url": "/influencer/pla26316-9a07-11ec-a6dc-069f9bbaf005/media",
+    "url": "/projects/ee8742a6-e563-11ec-a5d2-0611f1df76cb/task/assign/influencer",
     "headers": {
       "X-Organization-Id": "1",
       "Authorization": "$&%&%",
@@ -31,7 +31,7 @@
   },
   "testcase_004": {
     "method": "GET",
-    "url": "/influencer/pla26316-9a07-11ec-a6dc-069f9bbaf005/media",
+    "url": "/projects/ee8742a6-e563-11ec-a5d2-0611f1df76cb/task/assign/influencer",
     "headers": {
       "X-Organization-Id": "$&%&%",
       "Authorization": "1",
@@ -41,7 +41,7 @@
   },
   "testcase_005": {
     "method": "GET",
-    "url": "/influencer/pla26316-9a07-11ec-a6dc-069f9bbaf005/media",
+    "url": "/projects/ee8742a6-e563-11ec-a5d2-0611f1df76cb/task/assign/influencer",
     "headers": {
       "X-Organization-Id": "1",
       "Authorization": "1",

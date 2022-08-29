@@ -1,7 +1,6 @@
 {
   "testcase_001": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/chat/unread/a16b9356-2b17-11ec-aba9-06e52fpid001/a166b250-a17b-11ea-8304-06dcdaiid002",
     "headers": {
       "X-Organization-Id": "5eea617a-8ba3-11eb-93f2-065d921b402f",
@@ -12,7 +11,6 @@
   },
   "testcase_002": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/chat/unread/a16b9356-2b17-11ec-aba9-06e52fpid001/a166b250-a17b-11ea-8304-06dcdaiid002",
     "headers": {
       "X-Organization-Id": "5eea617a-8ba3-11eb-93f2-065d921b402f",
@@ -23,7 +21,6 @@
   },
   "testcase_003": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/chat/unread/a16b9356-2b17-11ec-aba9-06e52fpid001/a166b250-a17b-11ea-8304-06dcdaiid002",
     "headers": {
       "X-Organization-Id": "5eea617a-8ba3-11eb-93f2-065d921b402f",
@@ -34,7 +31,6 @@
   },
   "testcase_004": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/chat/unread/a16b9356-2b17-11ec-aba9-06e52fpid001/a166b250-a17b-11ea-8304-06dcdaiid002",
     "headers": {
       "X-Organization-Id": "5eea617a-8ba3-11eb-93f2-065d921b402f",

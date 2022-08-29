@@ -1,7 +1,6 @@
 {
   "testcase_001": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/influencer/affiliate/15bd13aa-2caf-11ec-809b-0242ac150002/summary",
     "headers": {
       "X-Organization-Id": "1",
@@ -12,7 +11,6 @@
   },
   "testcase_002": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/influencer/affiliate/15bd13aa-2caf-11ec-809b-0242ac150002/summary",
     "headers": {
       "X-Organization-Id": "1",
@@ -23,7 +21,6 @@
   },
   "testcase_003": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/influencer/affiliate/15bd13aa-2caf-11ec-809b-0242ac150002/summary",
     "headers": {
       "X-Organization-Id": "$&%&%",
@@ -34,7 +31,6 @@
   },
   "testcase_004": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/influencer/affiliate/15bd13aa-2caf-11ec-809b-0242ac150002/summary",
     "headers": {
       "X-Organization-Id": "1",
