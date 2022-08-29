@@ -40,7 +40,7 @@ async function makeInputCompare(
         // eslint-disable-next-line prefer-const
         for (let [testCase, request] of Object.entries(requestObj)) {
           // STEP 3: call API;
-          request = Object.assign(request, { baseURL: config.baseUrlDir });
+          request = Object.assign(request, { baseURL: config.baseUrl });
           const actualResponse = await axiosRequest
             .request(request)
             .then((data) => data)
@@ -91,7 +91,7 @@ async function makeInputCompare(
         // eslint-disable-next-line prefer-const
         for (let [testCase, request] of Object.entries(requestObj)) {
           // STEP 3: call API;
-          request = Object.assign(request, { baseURL: config.baseUrlDir });
+          request = Object.assign(request, { baseURL: config.baseUrl });
           const actualResponse = await axiosRequest
             .request(request)
             .then((data) => data)
@@ -111,7 +111,7 @@ async function makeInputCompare(
             `${dir}/${testCase}.json`,
             JSON.stringify({
               status: actualResponse?.status,
-              data: actualResponse?.data,
+              data: actualResponse?.data || actualResponse?.response?.data,
               // eslint-disable-next-line @typescript-eslint/ban-ts-comment
               // @ts-ignore
               expectedStatusCode: request['expectedStatusCode'],
