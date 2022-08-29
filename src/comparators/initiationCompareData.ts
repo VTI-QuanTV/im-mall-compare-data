@@ -15,7 +15,7 @@ async function makeInputCompare(
   try {
     // STEP 1: Read files
     console.log(listApi);
-    if (listApi && listApi?.type == TypeCompare.RUN_ALL) {
+    if (listApi && listApi?.api.length == 0) {
       const scriptFiles = fs.readdirSync(path.join(__dirname, `../scripts`));
 
       for (const scriptFile of scriptFiles) {
@@ -68,7 +68,7 @@ async function makeInputCompare(
           );
         }
       }
-    } else if (listApi && listApi?.type == TypeCompare.RUN_TARGET) {
+    } else {
       for (const api of listApi?.api) {
         const scriptFile = api + '.sql';
         // if (api.startsWith('get-inf')) {
