@@ -1,7 +1,6 @@
 {
   "testcase_001": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -20,7 +19,6 @@
   },
   "testcase_002": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -39,7 +37,6 @@
   },
   "testcase_003": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/ssssss/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -58,7 +55,6 @@
   },
   "testcase_004": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -76,7 +72,6 @@
   },
   "testcase_005": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -94,7 +89,6 @@
   },
   "testcase_006": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -113,7 +107,6 @@
   },
   "testcase_007": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -132,7 +125,6 @@
   },
   "testcase_008": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -151,7 +143,6 @@
   },
   "testcase_009": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -169,7 +160,6 @@
   },
   "testcase_010": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -188,7 +178,6 @@
   },
   "testcase_011": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -207,7 +196,6 @@
   },
   "testcase_012": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -226,7 +214,6 @@
   },
   "testcase_013": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -244,7 +231,6 @@
   },
   "testcase_014": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -263,7 +249,6 @@
   },
   "testcase_015": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -282,7 +267,6 @@
   },
   "testcase_016": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -300,7 +284,6 @@
   },
   "testcase_017": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -319,7 +302,6 @@
   },
   "testcase_018": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -338,7 +320,6 @@
   },
   "testcase_019": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -356,7 +337,6 @@
   },
   "testcase_020": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -375,7 +355,6 @@
   },
   "testcase_021": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",
@@ -386,7 +365,6 @@
   },
   "testcase_022": {
     "method": "GET",
-    "baseURL": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/v1",
     "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/conversions",
     "headers": {
       "X-Organization-Id": "1",

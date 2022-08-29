@@ -1,7 +1,6 @@
 {
   "testcase_001": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/chat/unread",
     "headers": {
       "X-Organization-Id": "45af0e5c-6a94-11eb-9030-0242ac160005",
@@ -12,7 +11,6 @@
   },
   "testcase_002": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/chat/unread",
     "headers": {
       "X-Organization-Id": "45af0e5c-6a94-11eb-9030-0242ac160005",
@@ -23,7 +21,6 @@
   },
   "testcase_003": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/chat/unread",
     "headers": {
       "X-Organization-Id": "45af0e5c-6a94-11eb-9030-0242ac160005",
@@ -34,7 +31,6 @@
   },
   "testcase_004": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/chat/unread",
     "headers": {
       "X-Organization-Id": "45af0e5c-6a94-11eb-9030-0242ac160005",

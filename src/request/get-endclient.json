@@ -1,7 +1,6 @@
 {
   "testcase_001": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/endclient/",
     "headers": {
       "X-Organization-Id": "1",
@@ -15,7 +14,6 @@
   },
   "testcase_002": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/endclient/",
     "headers": {
       "X-Organization-Id": "1",
@@ -29,7 +27,6 @@
 },
   "testcase_003": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/endclient/",
     "headers": {
       "X-Organization-Id": "1",
@@ -43,7 +40,6 @@
   },
   "testcase_004": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/endclient/",
     "headers": {
       "X-Organization-Id": "$&%&%",
@@ -57,7 +53,6 @@
   },
   "testcase_005": {
     "method": "GET",
-    "baseURL": "http://localhost:6651/v1",
     "url": "/endclient/",
     "headers": {
       "X-Organization-Id": "1",
