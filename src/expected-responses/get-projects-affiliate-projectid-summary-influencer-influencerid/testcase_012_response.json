@@ -1,0 +1,16 @@
+{
+    "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+    "influencerId": "a166b250-a17b-11ea-8304-06dcdaiid002",
+    "mediaId": "onumaaan",
+    "clickCount": 50,
+    "conversionCount": 5,
+    "conversionApprovedCount": 3,
+    "conversionUnApprovedCount": 1,
+    "conversionDisApprovedCount": 1,
+    "approvalRate": 60.0,
+    "conversionRate": 6.0,
+    "reward": 200,
+    "fixedReward": 6500,
+    "commission": 60,
+    "sum": 7280
+}

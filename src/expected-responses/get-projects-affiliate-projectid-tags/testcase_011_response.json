@@ -1,0 +1,4 @@
+{
+    "impressionScript": "<script src='https://tag.boujee.jp/view.js' async></script>",
+    "conversionScript": "<script>window._cm_dpcua9vwy = {conversionId: '{任意の注文ID}'}</script><script src='https://tag.boujee.jp/conversion.js' async></script>"
+}

@@ -1,0 +1,45 @@
+{
+    "columns": [
+        {
+            "header": "No",
+            "key": "no"
+        },
+        {
+            "header": "インフルエンサーID",
+            "key": "mediaId"
+        },
+        {
+            "header": "クリック数",
+            "key": "clickCount"
+        },
+        {
+            "header": "成果発生",
+            "key": "conversionCount"
+        },
+        {
+            "header": "CVR",
+            "key": "conversionRate"
+        },
+        {
+            "header": "成果確定",
+            "key": "conversionApprovedCount"
+        },
+        {
+            "header": "報酬単価",
+            "key": "reward"
+        },
+        {
+            "header": "手数料",
+            "key": "commission"
+        },
+        {
+            "header": "指名オファー金額",
+            "key": "fixedReward"
+        },
+        {
+            "header": "合計",
+            "key": "sum"
+        }
+    ],
+    "rows": []
+}

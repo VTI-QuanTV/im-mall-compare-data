@@ -1,0 +1,38 @@
+{
+    "total": 2,
+    "hasNext": false,
+    "items": [
+        {
+            "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+            "influencerId": "29d4ee76-8869-11ea-a687-06ac534ba540",
+            "mediaId": "onumaaan",
+            "clickCount": 99,
+            "conversionCount": 1,
+            "conversionApprovedCount": 1,
+            "conversionUnApprovedCount": 0,
+            "conversionDisApprovedCount": 0,
+            "approvalRate": 100.0,
+            "conversionRate": 1.01,
+            "reward": 200,
+            "fixedReward": 0,
+            "commission": 60,
+            "sum": 260
+        },
+        {
+            "projectId": "a16b9356-2b17-11ec-aba9-06e52fpid001",
+            "influencerId": "a166b250-a17b-11ea-8304-06dcdaiid002",
+            "mediaId": "onumaaan",
+            "clickCount": 50,
+            "conversionCount": 3,
+            "conversionApprovedCount": 2,
+            "conversionUnApprovedCount": 1,
+            "conversionDisApprovedCount": 0,
+            "approvalRate": 66.67,
+            "conversionRate": 4.0,
+            "reward": 200,
+            "fixedReward": 6500,
+            "commission": 60,
+            "sum": 7020
+        }
+    ]
+}

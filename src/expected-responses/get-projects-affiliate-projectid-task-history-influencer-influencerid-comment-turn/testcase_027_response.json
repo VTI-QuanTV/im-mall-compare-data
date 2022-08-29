@@ -1,0 +1,11 @@
+{
+    "errors": [
+        {
+            "status": 400,
+            "code": "000",
+            "userMessage": "不正な値が送られてきています",
+            "devMessage": "Param projectId must match \"[0-9a-zA-Z-]+\"",
+            "devInfo": "https://qr33ljaukj.execute-api.ap-northeast-1.amazonaws.com/"
+        }
+    ]
+}
