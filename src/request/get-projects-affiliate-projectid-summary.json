@@ -1,0 +1,319 @@
+{
+    "testcase_001": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1"
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_002": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "       "
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_003": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "       "
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_004": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": ""
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_005": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 200
+    },
+    "testcase_006": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "$&%&%"
+        },
+        "expectedStatusCode": 200
+    },
+    "testcase_007": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_008": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "       ",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_009": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "     ",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_010": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_011": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 200
+    },
+    "testcase_012": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "$&%&%",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 200
+    },
+    "testcase_013": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_014": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "       ",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_015": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "     ",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_016": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 401
+    },
+    "testcase_017": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 200
+    },
+    "testcase_018": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "$&%&%",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 200
+    },
+    "testcase_019": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 200
+    },
+    "testcase_020": {
+        "method": "GET",
+        "url": "/projects/affiliate//summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 400
+    },
+    "testcase_021": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 200
+    },
+    "testcase_022": {
+        "method": "GET",
+        "url": "/projects/affiliate/%20%20%20a16b9356-2b17-11ec-aba9-06e52fpid001%20%20/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 400
+    },
+    "testcase_023": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356%202b17%2011ec%20aba9%2006e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 400
+    },
+    "testcase_024": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356%202b17%2011ec%20aba9%2006e52&*fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 400
+    },
+    "testcase_025": {
+        "method": "GET",
+        "url": "/projects/affiliate/eb5b6316+9a07-11ec-a6dc-069f9bba5f43/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 400
+    },
+    "testcase_026": {
+        "method": "GET",
+        "url": "/projects/affiliate/sssssss/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 200
+    },
+    "testcase_027": {
+        "method": "GET",
+        "url": "/projects/affiliate/eb5b6316.9a07-11ec-a6dc-069f9bba5f43/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 400
+    },
+    "testcase_028": {
+        "method": "GET",
+        "url": "/projects/affiliate/eb5b6316&^9a07-11ec-a6dc-069f9bba5f43/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 400
+    },
+    "testcase_029": {
+        "method": "GET",
+        "url": "/projects/affiliate/墨塀免凞/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 400
+    },
+    "testcase_030": {
+        "method": "GET",
+        "url": "/projects/affiliate/a16b9356-2b17-11ec-aba9-06e52fpid001/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 200
+    },
+    "testcase_031": {
+        "method": "GET",
+        "url": "/projects/affiliate/ee8742a6-e563-11ec-a5d2-0611f1df76cb/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 404
+    },
+    "testcase_032": {
+        "method": "GET",
+        "url": "/projects/affiliate/bb712bea-816d-11ea-a4a9-06d285d39408/summary",
+        "headers": {
+            "X-Organization-Id": "1",
+            "Authorization": "1",
+            "X-From": "1"
+        },
+        "expectedStatusCode": 200
+    }
+}
